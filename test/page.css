@@ -1,0 +1,174 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: #f2dede;
+  height: 190px;
+  border-radius: 10px;
+}
+
+.imgfluid {
+  max-width: 100%;
+  height: auto;
+}
+
+#overflowTest {
+  color: black;
+  padding: 15px;
+  height: 27em;
+  overflow: scroll;
+}
+
+.menu {
+  margin-top: 14em;
+}
+
+.btn {
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 1px;
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.alignbuttoncentre {
+  padding-top: 4em;
+  padding-left: 28em;
+}
+
+.bn {
+  color: white;
+  border: 1px solid white;
+}
+
+.bn:hover {
+  background-color: white;
+  color: black;
+}
+#bg-img {
+  background-image: linear-gradient(to bottom, rgba(28, 28, 31, 0.068), rgba(29, 26, 28, 0.73)), url(https://bolanrestaurants.com.au/assets/images/new/5.jpg);
+  margin-top: 4em;
+  width: 100em;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  margin-left: 11.6em;
+  color: white;
+  font-size: 4em;
+  transform: translate(-50%, -50%);
+}
+
+.centere {
+  position: relative;
+  top: 50%;
+  margin-left: 33em;
+  color: white;
+  font-size: 1.2em;
+  transform: translate(-50%, -50%);
+}
+
+.chk {
+  padding: 0;
+}
+
+.slideshow-container {
+  position: relative;
+  height: 30em;
+  background: rgba(135, 207, 235, 0.589);
+}
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  margin-top: -1em;
+  background: rgba(135, 207, 235, 0.589);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.author {
+  color: cornflowerblue;
+}
+
+.cenered {
+  position: relative;
+  top: 50%;
+  margin-left: 11em;
+  color: white;
+  font-size: 4em;
+  transform: translate(-50%, -50%);
+}
+#inner {
+  display: table;
+  margin: 0 auto;
+}
+
+#outer {
+  width: 100%;
+}
+
+.footer {
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.048);
+  bottom: 0;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.342);
+  color: rgb(128, 126, 126);
+  text-align: center;
+}
+* {
+  font-family: Regular;
+}
+@font-face {
+  font-family: Regular;
+  src: url(Montserrat-Regular.ttf);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-default {
+  transition: 500ms ease;
+  background: transparent;
+}
+
+.navbar-default.scrolled {
+  background-color: black;
+  color: black;
+  width: 100em;
+}
